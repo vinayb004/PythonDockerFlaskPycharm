@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/winners/new" method="POST">
+    <div class="row">
+        <div class="col">
+            <label for="Name">Name</label>
+            <input id="Name" type="text" class="form-control" placeholder="Full Name" name="Name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="Age">Age</label>
+            <input id="Age" type="text" class="form-control" placeholder="Age when Oscar Received" name="Age">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="Movie">Movie</label>
+            <input id="Movie" type="text" class="form-control" placeholder="Name of the Movie" name="Movie">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="Year">Year</label>
+            <input id="Year" type="text" class="form-control" placeholder="Year Oscar reveived" name="Year">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label>Check your fields before you submit!</label>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit New Record</button>
+
+</form>
+
+{% endblock %}
