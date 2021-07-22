@@ -17,7 +17,9 @@ Create a new word document that includes the following:
 
 
 ## File with screenshots
+
 [Assignment3](screenshots/assignment3.docx)
+
 ----
 
 ## How to Submit your Project - Part2
@@ -31,4 +33,4 @@ Create a new word document that includes the following:
     5. YOUR project showing postman delete a record by showing the delete request and the results in the record listing
 
 ## File with screenshots
-[Final Assignment 4](screenshots/assignment4.docx)
+[Assignment4](screenshots/assignment4.docx)
