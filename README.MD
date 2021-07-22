@@ -17,4 +17,4 @@ Create a new word document that includes the following:
 
 
 ## File with screenshots
-[Final Project Part 1](screenshots/finalproject_part1.docx)
+[Assignment3](screenshots/assignment3.docx)
